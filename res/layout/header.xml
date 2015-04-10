@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <com.example.android20_lzhxw.mviews.TopViewPager
+        android:id="@+id/pager_header"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" >
+    </com.example.android20_lzhxw.mviews.TopViewPager>
+
+    <TextView
+        android:id="@+id/txtv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:background="#ff0000"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@+id/pager_header"/>
+
+</RelativeLayout>
